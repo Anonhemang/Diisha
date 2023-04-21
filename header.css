@@ -1,0 +1,426 @@
+.Headerp1 {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .nav-bar-1 {
+    display: flex;
+    border-bottom: 1px #cccccc solid;
+    padding: 16px;
+    justify-content: space-around;
+    height: 45px;
+    align-items: center;
+  }
+
+  .dir-con-lists {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  .con-lin-dec {
+    float: left;
+    font-weight: 400;
+
+  }
+
+  .links-dr-1 {
+    color: #111827;
+    font-size: 17px;
+    padding: 10px 10px;
+    text-decoration: none
+  }
+
+  #nav-div-2 {
+    display: flex;
+
+  }
+
+  .sec-div-1 {
+    display: flex;
+
+  }
+
+  .dir-con-lists {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .link-hl-1 {
+    margin: 10px;
+  }
+
+  #cmp-lgo-img {
+    justify-content: left;
+    margin-right: 450px;
+    color: #7e22ce;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  #navb1 {
+    color: aliceblue;
+    background-color: #7e22ce;
+    font-weight: 600;
+    padding: 4.5px;
+    border-radius: 10px;
+    border: none;
+
+  }
+
+  #navb1:hover {
+    background-color: #582c84;
+  }
+
+  #navb2 {
+    color: aliceblue;
+    background-color: #7e22ce;
+    font-weight: 600;
+    padding: 4.5px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: none;
+  }
+
+  #navb2:hover {
+    background-color: #582c84;
+  }
+
+  .cnt-hd-1 {
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    color: #7e22ce;
+    font-size: 17px;
+    align-items: center;
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    box-shadow: -2px 8px 20px .1px rgb(174, 174, 174);
+    font-weight: 500;
+
+  }
+
+  .srch-div-1 {
+    width: auto;
+    text-align: center;
+  }
+
+  .header {
+    position: fixed;
+  }
+
+  .m-content-div {
+    height: 30rem;
+    display: flex;
+  }
+
+
+  .news-div-new {
+    background-color:white;
+    width: 50%;
+  }
+
+  .nfty-det {
+    background-color: white;
+    width: 50%;
+  }
+
+
+  #srchbr {
+    width: 19rem;
+    height: 1.8rem;
+    border-radius: 10px;
+  }
+
+  .links-dr-1 {
+    margin: 10px;
+  }
+
+  .con-lin-dec :hover {
+    text-decoration: underline;
+  }
+
+  input[type="text"]:focus {
+    border: 2px solid #7e22ce;
+    /* Change this to the highlight color of your choice */
+    outline: none;
+  }
+
+  /* hidden drop-dn-con-1 menu */
+
+  .drop-dn-btn-1 {
+    background-color: #7e22ce;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .drop-dn-con-1 {
+    position: relative;
+    display: inline-block;
+  }
+
+  .drop-dn-con-1-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .drop-dn-con-1-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .drop-dn-con-1-content a:hover {
+    background-color: #f1f1f1
+  }
+
+  .drop-dn-con-1:hover .drop-dn-con-1-content {
+    display: block;
+  }
+
+  .drop-dn-con-1:hover .drop-dn-btn-1 {
+    background-color: #582c84;
+  }
+
+  /* Responsivness */
+
+  @media screen and (min-width: 320px) and (max-width : 479px) {
+
+    .m-content-div {
+
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      margin-top: 48px;
+    }
+
+    .cnt-hd-1 {
+      padding: 5px 0px 5px 0px;
+      width: 100%;
+      justify-content: start;
+    }
+
+    .sec-div-1 {
+      display: none;
+      width: 20%;
+    }
+
+    #navb1,
+    #navb2 {
+      display: none;
+    }
+
+
+    #srchbr {
+      width: 8rem;
+      height: 1rem;
+      float: left;
+    }
+
+    .srch-div-1 {
+      padding-left: 9px;
+      width: 7.5rem;
+    }
+
+    #cmp-lgo-img {
+      margin: 0;
+    }
+
+    .navbar2 {
+      float: left;
+      width: 100%;
+    }
+
+    .nav-bar-1 {
+      justify-content: start;
+      text-align: left;
+      width: 100%;
+      padding: 0px;
+    }
+
+    .news-div-new {
+      width: 100%;
+      height: auto;
+    }
+
+    .nfty-det {
+      width: 100%;
+      height: auto;
+    }
+
+    .drop-dn-btn-1 {
+      padding-bottom: 5px;
+    }
+
+    .drop-dn-con-1 {
+      margin-left: 30px;
+      width: 20px;
+    }
+
+    .nav-bar-1 {
+      justify-content: center;
+    }
+
+    .drop-dn-con-1-content {
+      max-width: 20px;
+    }
+  }
+
+  @media screen and (min-width: 480px) and (max-width : 768px) {
+
+    .m-content-div {
+
+      display: flex;
+      flex-direction: row;
+    }
+
+    .m-content-div {
+
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      margin-top: 49px;
+    }
+
+    .cnt-hd-1 {
+      padding: 5px 0px 5px 0px;
+
+      width: 100%;
+    }
+
+    .sec-div-1 {
+      display: none;
+      width: 20%;
+    }
+
+    #navb1,
+    #navb2 {
+      display: none;
+    }
+
+
+    #srchbr {
+      width: 11rem;
+      height: 1.5rem;
+      float: left;
+    }
+
+    .srch-div-1 {
+      width: 8rem;
+    }
+
+    #cmp-lgo-img {
+      margin: 0;
+    }
+
+    .navbar2 {
+      float: left;
+      width: 100%;
+    }
+
+    .nav-bar-1 {
+      justify-content: start;
+      text-align: left;
+      width: 100%;
+      padding: 0px;
+    }
+
+    .news-div-new {
+      width: 100%;
+      height: auto;
+    }
+
+    .nfty-det {
+      width: 100%;
+      height: auto;
+
+    }
+
+    .drop-dn-btn-1 {
+      margin-left: 40px;
+      padding-bottom: 5px;
+    }
+
+    .drop-dn-con-1 {
+      margin-left: 30px;
+      width: 20px;
+    }
+
+    .nav-bar-1 {
+      justify-content: center;
+    }
+
+  }
+
+  @media screen and (min-width: 769px) and (max-width : 959px) {
+
+    .m-content-div {
+
+      display: flex;
+      flex-direction: row;
+    }
+
+    .drop-dn-btn-1 {
+      display: none;
+    }
+
+    #cmp-lgo-img {
+      margin-right: 200px;
+    }
+
+    .cnt-hd-1 {
+      width: 100%;
+      padding: 10px 0px 10px 0px;
+    }
+
+  }
+
+  @media screen and (min-width: 960px) and (max-width : 1023px) {
+
+    .m-content-div {
+
+      display: flex;
+      flex-direction: row;
+    }
+
+    .drop-dn-btn-1 {
+      display: none;
+    }
+
+    #cmp-lgo-img {
+      margin-right: 300px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+
+    .m-content-div {
+
+      display: flex;
+      flex-direction: row;
+    }
+
+    .drop-dn-btn-1 {
+      display: none;
+    }
+
+    #cmp-lgo-img {
+      margin-right: 387px;
+    }
+  }
+
+
